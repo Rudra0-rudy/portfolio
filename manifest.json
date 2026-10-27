@@ -1,0 +1,25 @@
+
+{
+  "id": "/",
+  "name": "Rudra.dev — Rudra Pratap Maji",
+  "short_name": "Rudra.dev",
+  "description": "Rudra's portfolio — web development, machine learning and AI projects.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FFFDF5",
+  "theme_color": "#FFD93D",
+  "icons": [
+  {
+    "src": "/icons/icon-192.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },
+  {
+    "src": "/icons/icon-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }
+  ]
+}
