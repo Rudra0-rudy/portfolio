@@ -6,6 +6,13 @@
 <title>Rudra.dev — Rudra Pratap Maji</title>
 <meta name="description" content="Rudra Pratap Maji: full-stack web apps, machine learning and AI agents. Open to internships.">
 <meta name="theme-color" content="#FFD93D">
+<link rel="manifest" href="/manifest.json">
+
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Rudra.dev">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta property="og:title" content="Rudra.dev — Rudra Pratap Maji">
 <meta property="og:description" content="Full-stack web apps, machine learning and AI agents that actually work.">
 <meta property="og:type" content="website">
@@ -536,5 +543,28 @@ f.addEventListener('submit',async e=>{
  btn.disabled=false;btn.textContent='Send message ★';
 });
 </script>
+
+
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker
+        .register("/sw.js")
+        .then((registration) => {
+          console.log(
+            "PWA service worker registered:",
+            registration.scope
+          );
+        })
+        .catch((error) => {
+          console.error(
+            "PWA service worker registration failed:",
+            error
+          );
+        });
+    });
+  }
+</script>
+
 </body>
 </html>
