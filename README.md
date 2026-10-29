@@ -78,3 +78,4 @@ I enjoy learning new technologies by building and improving real-world applicati
 ---
 
 *Built and maintained by Rudra Pratap Maji.*
+*Built and maintained by Rudra Pratap Maji.*
